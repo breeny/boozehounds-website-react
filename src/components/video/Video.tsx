@@ -9,8 +9,11 @@ export interface Props {
 export default class Video extends React.Component<Props, {}> {
     render() {
         if (this.props.video) {
+            let { thumbnailUrl } = this.props.video;
             return (
-                null
+                <div className="thumbnail">
+                    <img src={thumbnailUrl} />
+                </div>
             );
         } else {
             return (
