@@ -1,0 +1,16 @@
+@import '../../theme/constants';
+
+.loading {
+    &-icon {
+        width: $round-icon-size;
+        height: $round-icon-size;
+        background-color: $empty-state-color;
+        border-radius: $round-icon-size;
+    }
+
+    &-thumbnail {
+        width: $thumbnail-width;
+        height: $thumbnail-height;
+        background-color: $empty-state-color;
+    }
+}
